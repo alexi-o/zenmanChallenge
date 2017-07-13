@@ -1,0 +1,175 @@
+body {
+	background-color: black;
+}
+h1 {
+	color: white;
+}
+h2, h3 {
+	color: yellow;
+}
+h1, h2, h3 {
+	text-align: center;
+	vertical-align: middle;
+}
+#name {
+		display: none;
+}
+
+@media only screen and (min-width : 320px) {
+	h1{
+		font-size: 2em;
+		line-height: 100px;
+		word-wrap: break-word;
+	}
+	h2 {
+		font-size: 1.625em;
+	}
+	h3 {
+		font-size: 1.375em;
+		top: 10px;
+		position: relative;
+	}
+	p {
+		text-align: center;
+		margin: 20px;
+		position: relative;
+	}
+	img {
+		display: block;
+		margin: auto;
+		width: 30%;
+		top: 20px;
+		position: relative;
+		border-radius: 100%;
+	}
+	.box {
+		width: auto;
+		height: 100px;
+		background-color: red;
+		position: relative;
+		margin: 20px;
+	}
+	.container {
+		height: auto;
+		width: 100%;
+		position: relative;
+		margin: 20px auto;
+	}
+	.description, .traits {
+		position: relative;
+	}
+	.profile {
+		margin: 10px;
+		background-color: white;
+		width: 100%;
+		margin: 10px auto;
+		padding-bottom: 10px
+	}
+	.title {
+		background-color: red;
+		height: 100px;
+		width: 100%;
+		margin: 10px auto;
+		top: 10px;
+	}
+}
+
+
+@media only screen and (min-width : 768px) {
+	h1{
+		font-size: 2.5em;
+		line-height: 50px;
+	}
+	h2 {
+		font-size: 2em;
+		position: relative;
+		line-height: 50px;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	.box {
+		height: 100px;
+		width: 28%;
+		float: left;
+		display: inline;
+	}
+	.traits {
+		display: inline-block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	.title {
+		width: 500px;
+		height: 50px;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	h1{
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2.25em;
+	}
+	h3 {
+		font-size: 1.75em;
+	}
+	p {
+
+	}
+	img {
+		height: 150px;
+		width: auto;
+	}
+	span{
+		display: none;
+	}
+	.box {
+		background-color: #e4e4e4;
+		height: 200px;
+		width: 29%;
+	}
+	.container {
+		width: 100%;
+		height: 664px;
+		background-color: red;
+	}
+	.description {
+		width: 300px;
+		height: 250px;
+		border-style: solid;
+		border-color: black;
+		background-color: white;
+		z-index: 1;
+		position: relative;
+		bottom: 30px;
+		left: -30px;
+	}
+	.traits {
+		position: relative;
+		bottom: 160px;
+	}
+	.profile {
+		height: 450px;
+		width: 90%;
+		position: relative;
+		top: 70px;
+	}
+	#name {
+		display: inline;
+		position: relative;
+		bottom: 175px;
+		left: 300px;
+	}
+	#info {
+		width: 600px;
+		position: relative;
+		text-align: justify;
+    text-justify: inter-word;
+		bottom: 175px;
+		left: 280px;
+	}
+}
